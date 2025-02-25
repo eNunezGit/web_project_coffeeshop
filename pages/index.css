@@ -1,0 +1,16 @@
+@media screen and (min-width: 1600px) {
+    .page {
+        margin: auto;
+    }
+}
+
+/* Recuerda usar Arial y sans-serif para Inter,
+   y New Times Roman y serif como alternativas respectivamente */
+
+.page {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    min-width: 1100px;
+    max-width: 1600px;
+}
