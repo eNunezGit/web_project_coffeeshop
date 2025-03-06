@@ -87,7 +87,7 @@ y New Times Roman y serif para Noto Serif como alternativas respectivamente */
     line-height: 30px;
 }
 
-.header__coffee-shop {
+.header__image {
     position: absolute;
     top: 115px;
     right: 5px;
@@ -126,7 +126,7 @@ y New Times Roman y serif para Noto Serif como alternativas respectivamente */
     margin-top: auto;
 }
 
-.recipe {
+.recipes {
     color: #FFFFFF;
     background-color: #0a2750;
     background-image: url(/images/background_recipes.svg);
@@ -140,7 +140,7 @@ y New Times Roman y serif para Noto Serif como alternativas respectivamente */
     max-height: 800px;
 }
 
-.recipe__title {
+.recipes__title {
     max-width: 580px;
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
@@ -150,7 +150,7 @@ y New Times Roman y serif para Noto Serif como alternativas respectivamente */
     margin: 100px auto 0 80px;
 }
 
-.recipe__subtitle {
+.recipes__subtitle {
     max-width: 438px;
     margin: 24px auto 0 80px;
     font-family: "Noto Serif";
@@ -160,7 +160,7 @@ y New Times Roman y serif para Noto Serif como alternativas respectivamente */
     line-height: 30px;
 }
 
-.recipe__videos {
+.recipes__videos {
     display: flex;
     justify-content: space-between;
     justify-self: center;
@@ -169,20 +169,20 @@ y New Times Roman y serif para Noto Serif como alternativas respectivamente */
 }
 
 
-.recipe__video-item {
+.recipes__video-item {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     row-gap: 24px;
 }
 
-.recipe__iframe {
+.recipes__iframe {
     border: none;
     width: 480px;
     height: 273px;
 }
 
-.recipe__video-caption {
+.recipes__video-caption {
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
