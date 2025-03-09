@@ -207,7 +207,7 @@ y New Times Roman y serif para Noto Serif como alternativas respectivamente */
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
-    margin: 100px auto 0;
+    margin: 100px auto 80px;
 }
 
 .form {
@@ -216,11 +216,10 @@ y New Times Roman y serif para Noto Serif como alternativas respectivamente */
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 0;
 }
 
 .reservation__form {
-    margin: 80px auto 120px;
+    margin: 0 auto 120px;
 }
 
 
